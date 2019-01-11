@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,600,700');
+
+
+
+
+*{
+	
+	
+	margin: 0;
+	padding: 0;
+}
+
+
+
+body{
+	
+	
+	
+	
+font-family: 'Montserrat';
+	font-size: 18px;
+	
+	background-color: #fff;
+}
+
+.titulo{
+	
+	font-size: 90px;
+	font-weight: 700;
+	
+}
+
+
+header{
+	
+	background-color:#333333;
+
+
+}
+
+
+
+
+
+header img{
+	
+	max-height: 65px;
+	max-width: 65px;
+}
+
+header .container{
+	
+	background-color: #e6e6e6;
+}
+
+
+#sec-banner{
+	
+	
+/*	text-align: center;*/
+	background-image:url(../img/bn.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height:856px;
+}
+
+.espaciado{
+	
+	padding: 20px 0;
+}
+	
+
+
+.bar-naranja{
+	
+	height: 8px;
+	width:80px;
+	background-color: #f54f15;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+
+#sec-carousel{
+	
+	border-bottom: 10px solid #f54f15;
+	
+	
+}
+
+
+.tit-sec{
+text-align:left;
+	font-weight: 600;
+	color: #f54f15;
+		
+	
+	
+}
+#sec-compras-inter{
+	
+	
+	
+	text-align: center;
+	background-image: url(../img/bg_comprasinternet.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 100px 0;
+/*	height:600px;*/
+}
+
+
+#sec-courier{
+	
+    text-align: center;
+	background-image: url(../img/bgcourier.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 100px 0;
+	
+	
+	
+}
+
+
+#sec-carga{
+	
+	
+text-align: center;
+	background-image: url(../img/bg_carga.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 100px 0;
+}
+
+
+
+#sec-asesoria{
+	
+	text-align: center;
+	background-image: url(../img/bg_asesoria.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 100px 0;
+	
+}
+
+#sec-servicios{
+	
+	
+	background-color: #f3f3f3;
+/*	height: 800px;*/
+	text-align: center;
+/*	padding:100px 0;*/
+	border-bottom: 15px solid #f54f15;
+	
+}
+
+
+#sec-ventajas{
+	
+	padding: 150px 0;
+	border-bottom: 15px solid #f54f15;
+	
+}
+
+#sec-ventajas h2{
+	
+	font-weight: 100;
+	color:#4e4e4e;
+}
+
+
+
+#sec-servicios h1{
+	text-align: center;
+	
+}
+
+
+.justificado{
+	
+	
+	text-align: justify;
+}
+
+.resaltado{
+	
+	
+	color: #4d4d4d;
+	font-weight: 700;
+}
+
+.bar-naranja-derech{
+
+	width: 60px;
+	height: 5px;
+	background-color: #f54f15;
+	
+	
+}
+
+
+
+.marco{
+	
+	
+    padding: 0px 10px;
+	background-color: #e6e6e5;
+	border-radius: 12px;
+	color:#4e4e4e;
+/*	height:100px;*/
+}
+
+.entre-tit{
+	
+	color: #4e4e4e;
+	font-weight: 700;
+	font-size: 35px;
+	text-align: center;
+	
+}
+
+.btn-naranja{
+	background-color: #f54f15;
+	color: #fff;
+	border-radius: 0;
+	border:0;
+	text-transform: uppercase;
+	padding: 15px 30px;
+	font-weight: 600;
+	margin-top: 10px;
+}
+
+
+
+.bar-gris{
+	width: 60px;
+	height: 5px;
+	background-color: #4e4e4e;
+	
+	
+	
+}
+
+footer{
+	
+	text-align: center;
+	color: #fff;
+	padding:20px;
+	background-color:#333333;
+/*	padding*/
+	
+}
+
+footer p{
+	
+	font-weight: 100;
+	font-size: 15px;
+}
+
+
+
+
+/*
+.redes{
+	padding: 5px 0;
+}
+*/
+
+.redes li{
+	display: inline-block;
+	font-size: 25px;
+}
+.redes a{
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	border: 2px solid #fff;
+	display: block;
+	border-radius: 100%;
+	color: #fff;
+	text-decoration: none;
+/*	padding: 5px 0;*/
+}
+
+.redes a:hover{
+	background-color: #f05223;
+	color: #fff;
+	transition: all ease 0.5s;
+	border: 2px solid #f05223;
+}
+
+
+
+#sec-about{
+	
+background-color: #f3f3f3;
+	text-align: center;
+	padding: 40px 0;
+	
+	
+}
+
+#sec-about img{
+	max-height: 250px;
+	margin-bottom: -30px;
+	
+	
+}
+
+#sec-about .titulo{
+	
+	font-weight: 600;
+	font-size: 36px;
+	color:#f05223;
+	
+}
+
+#sec-about p{
+	
+	font-size: 18px;
+	
+}
+
+
+
+#sec-mision{
+	
+background-color: #e6e6e5;
+	text-align: center;
+	padding: 40px 0;
+	
+	
+}
+
+
+#sec-mision h4{
+	
+text-align: justify;
+	font-weight: 700;
+	color: #333333;
+	
+}
+
+#sec-mision .espaciado{
+	
+	padding: 10px 0;
+	
+}
+
+
+
+#sec-valores{
+	
+background-color: #f3f3f3;
+/*	text-align: center;*/
+	padding: 40px 0;
+	border-bottom: 15px solid #f54f15;
+	
+	
+}
+
+
+#sec-valores h4{
+	
+text-align: justify;
+	font-weight: 700;
+	color: #333333;
+	
+}
+
+#sec-mision .espaciado{
+	
+	padding: 10px 0;
+	
+}
+
+#sec-servicios h5{
+	
+	font-weight: 700;
+	color:#f05223;
+	
+}
+
+.resalt-naranja{
+	
+	font-weight: 700;
+	color:#f05223;
+	
+}
+
+.marco-naranja{
+	
+	background-color: #f05223;
+	color:#fff;
+}
+
+
+
+
