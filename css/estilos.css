@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,800');
 
 
 
@@ -90,6 +90,11 @@ header .container{
 	
 }
 
+#sec-carousel p{
+	font-weight: 500;
+	font-size: 20px;
+	
+}
 
 .tit-sec{
 text-align:left;
@@ -261,7 +266,7 @@ footer{
 
 footer p{
 	
-	font-weight: 100;
+	font-weight: 500;
 	font-size: 15px;
 }
 
@@ -401,6 +406,242 @@ text-align: justify;
 	background-color: #f05223;
 	color:#fff;
 }
+
+#sec-consejos{
+	
+	
+	
+	border-bottom: 15px solid #f54f15;
+	padding-bottom: 88px;
+}
+
+
+#sec-consejos .cajita{
+	
+	
+	position: relative;
+	
+}
+
+
+#sec-consejos .bg-overlay{
+	
+	
+	
+	position: absolute;
+	width: 100%;
+	height: 100%;
+
+
+}
+
+#sec-consejos h2{
+	
+	color:#fff;
+	font-weight: 100;
+}
+#sec-consejos i{
+	
+	color:rgba(240,240,240,0.90);
+	font-size: 100px;
+	padding: 10px 5px;
+	margin-bottom: -15px;
+	
+	
+}
+#sec-consejos li{
+	
+	font-size: 17px;
+	
+}
+.filete{
+	
+	
+	
+	background-color: #4e4e4e;
+}
+.resalt-consejos{
+	font-weight: 600;
+}
+
+
+#sec-contacto .entre-tit{
+	
+	text-transform: uppercase;
+	
+}
+#sec-contacto{
+	
+	text-align: center;
+	
+
+}
+#sec-contacto i{
+	
+	font-size:70px;
+	color:#f05223;
+	margin-top: 25px;
+	
+}
+#sec-contacto p{
+	
+	font-weight: 500;
+	font-size: 20px;
+}
+
+#sec-form{
+	
+	
+	text-align: center;
+	background-image: url(../img/img-contacto.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+color:#fff;
+	
+}
+
+#sec-form textarea{
+	
+	height: 200px;
+	background-color:rgba(255,255,255,0.90);
+	border-radius: 0;
+}
+
+#sec-form input{
+	
+	
+	background-color:rgba(255,255,255,0.90);
+	color:#333;
+	border-radius: 0;
+	
+
+}
+
+
+#map{
+	
+	width: 100%;
+	min-height: 400px;
+}
+
+#sec-map{
+	
+	border-bottom: 15px solid #f54f15;
+}
+
+/*MEDIA QUERIES PAGINA INDEX*/
+
+
+
+@media (max-width:480px){
+	
+	
+	#sec-carousel h1 {
+		
+		font-size: 24px;
+		margin-bottom: 40px;
+		
+		
+	}
+	
+	#sec-carousel p{
+		
+		display: none;
+	}
+	
+	#sec-carousel hr{
+		
+		
+		width: 30px;
+		
+	}
+}
+
+
+
+@media (max-width:768px){
+	
+	#sec-carousel h1{
+		
+		font-size: 50px;
+		
+	}
+	
+	
+	
+	#sec-carousel p{
+		
+		font-size: 14px;
+		
+		
+	}
+	
+
+	
+}
+
+/*DISPOSITIVOS IPHONE GALAXY S5*/
+
+@media (max-width:375px){
+	
+	#sec-carousel h1{
+		
+		font-size: 18px;
+	}
+	
+	
+	#sec-carousel p{
+		display: none;
+	}
+	
+}
+
+
+@media(min-width: 1024px){
+	
+	
+	#sec-carousel h1{
+		font-size: 70px;
+		
+	}
+}
+
+@media(min-width:854px){
+	
+	#sec-carousel h1{
+		font-size: 50px;
+		
+	}
+	
+	#se-carousel p{
+		
+		font-size: 5px;
+	}
+
+	
+}
+
+
+/*
+@media(max-width:640px){
+	
+	#sec-carousel h1{
+		
+		font-size: 40px;
+	}
+	
+	#sec-carousel p{
+		font-size: 10px;
+		
+	}
+
+	
+}
+*/
+
+
+
 
 
 
